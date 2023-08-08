@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    name: EmployeeDatasource
+    username: root2
+    password: software
+    url: jdbc:mysql://127.0.0.1:3306/db444
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true
+
+server:
+  port: 9090
+  
